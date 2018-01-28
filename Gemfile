@@ -10,7 +10,7 @@ gem 'turbolinks', '~> 2.2.2'
 gem 'omniauth', '~> 1.2.1'
 gem 'omniauth-twitter', '~> 1.0.1'
 gem 'bootstrap-sass', '~> 3.3.1'
-
+gem 'hashie', '3.4.4'
 
 gem 'spring',        group: :development
 

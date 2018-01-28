@@ -57,7 +57,7 @@ GEM
     execjs (2.7.0)
     globalid (0.4.1)
       activesupport (>= 4.2.0)
-    hashie (3.5.7)
+    hashie (3.4.4)
     hike (1.2.3)
     i18n (0.9.3)
       concurrent-ruby (~> 1.0)
@@ -162,6 +162,7 @@ PLATFORMS
 DEPENDENCIES
   bootstrap-sass (~> 3.3.1)
   coffee-rails (~> 4.0.1)
+  hashie (= 3.4.4)
   jquery-rails (~> 3.1.0)
   omniauth (~> 1.2.1)
   omniauth-twitter (~> 1.0.1)

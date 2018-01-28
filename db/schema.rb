@@ -13,7 +13,7 @@
 
 ActiveRecord::Schema.define(version: 20180125112218) do
 
-  create_table "events", force: true do |t|
+  create_table "events", force: :cascade do |t|
     t.integer  "owner_id"
     t.string   "name",       null: false
     t.string   "place",      null: false
@@ -26,7 +26,7 @@ ActiveRecord::Schema.define(version: 20180125112218) do
 
   add_index "events", ["owner_id"], name: "index_events_on_owner_id"
 
-  create_table "users", force: true do |t|
+  create_table "users", force: :cascade do |t|
     t.string   "provider",   null: false
     t.string   "uid",        null: false
     t.string   "nickname",   null: false
